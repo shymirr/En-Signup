@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  .Signup_body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #cee5fd, #fff);
+    font-family: 'Pretendard';
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .Signup_container{
+    width:536px;
+    background: #fff;
+    color:black;
+    border-radius: 15px;
+    padding:60px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  }
+
+  .Signup_container h1{
+    font-size:36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .Signup_container p{
+    font-size: 20px;
+    color: #222222;
+    margin-top: 20px;
+  }
+
+  .Signup_container .Signup_container_mail{
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+
+  .Signup_container .Signup_input_box{
+    position : relative;
+    width : 100%;
+    height: 53px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .Signup_input_box input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    outline: none;
+    border : 2px solid rgba(0,0,0,.1);
+    border-radius:10px;
+    font-size: 16px;
+    color: black;
+    padding:20px 45px 20px 20px;
+  }
+
+  .Signup_input_box input::placeholder{
+    color:#777777;
+  }
+
+  .Signup_input_box .Signup_icon{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-30%);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .Signup_input_box .Signup_mail_icon{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-30%);
+    font-size: 18px;
+  }
+
+  .Signup_container .Signup_container_send_button{
+    color: #E3E3E3;
+    
+  }
+
+  .Signup_container_mail .Signup_mail_button{
+    width: 40%;
+    height: 53px;
+    background: #E3E3E3;
+    border:none;
+    outline: none;
+    padding:5px;
+    font-size:16px;
+    border-radius:10px;
+    cursor:pointer;
+    color: #888888;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .Signup_container .Signup_container_mail{
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+
+  .Signup_container .Signup_mail_input_box{
+    position : relative;
+    width : 100%;
+    height: 53px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+  }
+
+  .Signup_mail_input_box input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    outline: none;
+    border : 2px solid rgba(0,0,0,.1);
+    border-radius:10px;
+    font-size: 16px;
+    color: black;
+    padding:20px 45px 20px 20px;
+    cursor: pointer;
+  }
+
+  .Signup_input_box input.normal {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .Signup_input_box input.valid {
+    border: 2px solid #435DEE;
+  }
+
+  .Signup_input_box input.invalid {
+    border: 2px solid #EE4346;
+  }
+
+
+  .Signup_mail_input_box input::placeholder{
+    color:#777777;
+  }
+
+  .Signup_container button{
+    width: 100%;
+    height: 60px;
+    background: #E7F2FF;
+    border:none;
+    outline: none;
+    border-radius: 57px;
+    stroke: #CEDEF7;
+    stroke-width: 1px;
+    cursor:pointer;
+    font-size:20px;
+    color:#333;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background: white;
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    justify-content: space-between; 
+  }
+
+  .close-btn {
+    align-self: center;
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: auto; 
+  }

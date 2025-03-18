@@ -1,0 +1,129 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+
+.Signin_body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, #cee5fd, #fff);
+  font-family: 'Pretendard';
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+.Signin_container {
+  width:606px;
+  height: 509px;
+  background: #fff;
+  color:black;
+  border-radius: 15px;
+  padding:60px 60px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.Signin_container h1{
+  font-size:36px;
+  text-align: center;
+}
+
+.Signin_container .Signin_input_box{
+  position : relative;
+  width : 90%;
+  height: 60px;
+  margin: 30px 30px;
+  
+}
+
+.Signin_input_box input{
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  outline: none;
+  border : 2px solid rgba(0,0,0,.1);
+  border-radius:10px;
+  font-size: 20px;
+  color: black;
+  padding:20px 45px 20px 20px;
+}
+
+.Signin_input_box input::placeholder{
+  color:#888888;
+}
+
+.Signin_input_box .Signin_icon{
+  position: absolute;
+  right: 20px;
+  top:50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+}
+
+.Signin_container .Signin_remember_forgot{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: -15px 30px 15px;
+}
+
+.Signin_container .Signin_remember_forgot a {
+  text-decoration: underline;
+  color: #888888;
+}
+
+.Signin_remember_forgot label input{
+  accent-color:  black;
+  margin-right: 4px;
+}
+
+.Signin_remember_forgot a{
+  color: black;
+  text-decoration: none;
+}
+
+.Signin_remember_forgot a:hover{
+  text-decoration: underline;
+}
+
+.Signin_container button{
+  width: 90%;
+  height: 60px;
+  background: #E7F2FF;
+  border:none;
+  outline: none;
+  border-radius: 57px;
+  /* box-shadow: 0 0 10px rgba(0,0,0,.08); */
+  stroke: #CEDEF7;
+  stroke-width: 1px;
+  cursor:pointer;
+  font-size:20px;
+  color:#333;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.Signin_container .Signin_register_link{
+  font-size:16px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: #777777;
+}
+
+.Signin_register_link p a{
+  color: #333333;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.Signin_register_link p a:hover{
+  text-decoration: underline;
+}
